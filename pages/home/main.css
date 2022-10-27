@@ -1,10 +1,15 @@
 #posts-list {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     align-self: center;
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
+}
+
+.observer{
+    margin-top: -200px;
 }
 
 .card, .temp-load {

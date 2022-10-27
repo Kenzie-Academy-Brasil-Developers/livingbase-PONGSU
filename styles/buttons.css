@@ -3,7 +3,7 @@
   flex-direction: row;
   gap: 20px;
   padding-bottom: 19px;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   align-self: center;
   width: 100%;
