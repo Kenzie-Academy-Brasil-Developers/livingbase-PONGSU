@@ -1,0 +1,51 @@
+#start {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    margin: 5vw 0 20px 0;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#header-infos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-title {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-bottom: 5vw;
+    padding-right: 10vw;
+}
+
+#header-high {
+    margin-bottom: 2vw;
+    padding-right: 10vw;
+}
+
+#header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-height: 100%;
+}
+
+#header-img img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#header-desc {
+    margin-bottom: 2vw;
+    padding-right: 10vw;
+}
+
+#go-to-posts:hover {
+    color: var(--color-brand-100);
+}

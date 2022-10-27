@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living</title>
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script defer type="module" src="./index.js"></script>
+    <script defer type="module" src="../../scripts/filters.js"></script>
 </head>
-<body>
-    <main></main>
+
+<body id="top">
+    <header class="container" id="start">
+        <section id="header-infos">
+            <span id="header-title">
+                <div class="marker"></div>
+                <h3 class="font2">Living</h3>
+            </span>
+            <h1 class="font1" id="header-high">Cuidando de cada <span class="green">detalhe</span> da sua casa</h1>
+            <p class="font5" id="header-desc">Trazendo uma nova e incrível experiência para você e para seu lar</p>
+            <a class="font4" id="go-to-posts" href="#posts-list">Consumir conteúdos</a>
+        </section>
+        <aside id="header-img">
+            <img src="../../src/img-homePage.png" alt="">
+        </aside>
+    </header>
+    <section class="container" id="category-filters" >
+            <span class="first-filters-marker"></span>
+            <button class="hide previous-icon"><</button>
+            <button class="bttn-primary bttn-filter">Todos</button>
+            <button class="bttn-grey bttn-filter" id="bttn-Segurança">Segurança</button>
+            <button class="bttn-grey bttn-filter" id="bttn-Decoração">Decoração</button>
+            <button class="bttn-grey bttn-filter" id="bttn-Organização">Organização</button>
+            <button class="bttn-grey bttn-filter" id="bttn-Aromas">Aromas</button>
+            <button class="bttn-grey bttn-filter" id="bttn-Reforma">Reforma</button>
+            <span class="last-filters-marker"></span>
+            <button class="next-icon">></button>
+    </section>
+    <main class="container" id="posts-list">
+    </main>
+    <div class="observer"></div>
+    <footer id="footer" class="hide">
+        <span id="footer-title">
+            <div class="marker"></div>
+            <h3>Living</h3>
+        </span>
+        <p class="font5" id="footer-desc">The passage experienced a surge in popularity during the 1960s when Letraset
+            used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with
+            their software.</p>
+        <a class="font4 bttn-greyDark" id="bttn-back-to-start" href="">Voltar para o topo</a>
+    </footer>
 </body>
+
 </html>

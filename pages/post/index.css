@@ -1,1 +1,38 @@
-/* Desenvolva seu estilo aqui */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(131, 130, 130, 0.63);
+    height: 90px;
+    margin-bottom: 70px;
+    padding: 0 13vw;
+}
+
+#header-title {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+#expanded-post-title {
+    margin-bottom: 32px;
+}
+
+#expanded-post-desc {
+    margin-bottom: 42px;
+}
+
+#expanded-post-img {
+    width: 100%;
+    max-height: 450px;
+    margin-bottom: 52px;
+}
+
+#expanded-post-text {
+    margin-bottom: 30px;
+}
+
+#category-filters {
+    margin: 0;
+    margin-bottom: 230px;
+}

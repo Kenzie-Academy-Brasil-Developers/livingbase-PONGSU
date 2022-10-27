@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living</title>
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script defer type="module" src="./index.js"></script>
+    <script defer type="module" src="../../scripts/filters.js"></script>
 </head>
+
 <body>
-    <main></main>
+    <header >
+        <span id="header-title">
+            <div class="marker"></div>
+            <h3>Living</h3>
+        </span>
+        <a id="bttn-to-home" class="bttn-grey" href="../home/index.html">Home</a>
+    </header>
+    <main class="container2">
+        <section  id='post-section'>
+
+        </section>
+    </main>
+    <span class="container2">
+        <section id="category-filters">
+            <div class="first-filters-marker"></div>
+                <button class="hide previous-icon"><</button>
+                <button class="bttn-grey bttn-filter">Todos</button>
+                <button class="bttn-grey bttn-filter" id="bttn-Segurança">Segurança</button>
+                <button class="bttn-grey bttn-filter" id="bttn-Decoração">Decoração</button>
+                <button class="bttn-grey bttn-filter" id="bttn-Organização">Organização</button>
+                <button class="bttn-grey bttn-filter" id="bttn-Aromas">Aromas</button>
+                <button class="bttn-grey bttn-filter" id="bttn-Reforma">Reforma</button>
+                <div class="last-filters-marker"></div>
+                <button class="next-icon">></button>
+        </section>
+    </span>
+    <footer id="footer" class="">
+        <span id="footer-title">
+            <div class="marker"></div>
+            <h3>Living</h3>
+        </span>
+        <p class="font5" id="footer-desc">The passage experienced a surge in popularity during the 1960s when Letraset
+            used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with
+            their software.</p>
+        <a class="font4 bttn-greyDark" id="bttn-back-to-start" href="#start">Voltar para o topo</a>
+    </footer>
 </body>
+
 </html>

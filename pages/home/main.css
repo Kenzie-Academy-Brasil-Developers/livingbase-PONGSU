@@ -1,0 +1,61 @@
+#posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card, .temp-load {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    max-width: 548px;    
+    height: 30vw;
+    margin-bottom: 30px;
+    max-height: 380px;
+}
+
+.card-img,
+.card-title,
+.card-desc,
+.card-link {
+    max-width: 100%;
+}
+
+.card-img {
+    max-height: 178px;
+    height: 33vw;
+    margin-bottom: 15px;
+}
+
+.card span{
+    height: 55%;
+    max-height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    padding-right: 13px;
+}
+
+.card-desc {
+    margin-bottom: 15px;
+    padding-right: 13px;
+}
+
+.card-link {
+}
+
+.card-link:hover {
+    color: var(--color-grey-100);
+    cursor: pointer;
+}
+
+.last-filters-marker {
+    margin-left: -20px;
+}
